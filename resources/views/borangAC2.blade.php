@@ -134,28 +134,28 @@
                 <span>1 Alamat</span><br>
                 <span>1.1 Nombor Rumah / Unit / Lot</span><br>
                 <span><i>House / Unit / Lot Number</i></span><br>
-                <input type="text" name="001101" id="001101"><br>
+                <input type="text" Name="ac1_001101" id="001101"><br>
                 <span>1.2 Nombor Tingkat</span><br>
                 <span><i>Level Number</i></span><br>
-                <input type="text" name="001102" id="001102"><br>
+                <input type="text" Name="ac1_001102" id="001102"><br>
                 <span>1.3 Nombor Blok</span><br>
                 <span><i>Block Number</i></span><br>
-                <input type="text" name="001103" id="001103"><br>
+                <input type="text" Name="ac1_001103" id="001103"><br>
                 <span>1.4 Bangunan / Pangsapuri / Kondominium</span><br>
                 <span><i>Building / Apartment / Condominium</i></span><br>
-                <input type="text" name="001104" id="001104"><br>
+                <input type="text" Name="ac1_001104" id="001104"><br>
                 <span>1.5 Jalan / Batu / Lorong /Parit</span><br>
                 <span><i>Road / Mile / Street / Parit</i></span><br>
-                <input type="text" name="001105" id="001105"><br>
+                <input type="text" Name="ac1_001105" id="001105"><br>
                 <span>1.6 Taman / Kampung / Desa / Presint</span><br>
                 <span><i>Housing estate / Village / Rural/ Precinct</i></span><br>
-                <input type="text" name="001107" id="001107"><br>
+                <input type="text" Name="ac1_001107" id="001107"><br>
                 <span>1.7 Bandar</span><br>
                 <span><i>Town</i></span><br>
-                <input type="text" name="001106" id="001106"><br>
+                <input type="text" Name="ac1_001106" id="001106"><br>
                 <span>1.8 Negeri</span><br>
                 <span><i>State</i></span><br>
-                <select name="001109" id="001109">
+                <select Name="ac1_001109" id="001109">
                     <option value="01">Johor</option>
                     <option value="02">Kedah</option>
                     <option value="03">Kelantan</option>
@@ -175,7 +175,7 @@
                 </select><br>
                 <span>1.7 Poskod</span><br>
                 <span><i>Poscode</i></span><br>
-                <input type="text" name="001108" id="001108"><br>
+                <input type="text" Name="ac1_001108" id="001108"><br>
             </fieldset>
         </div>
         <div class="myDiv hidden">
@@ -186,16 +186,16 @@
                 </legend>
                 <span>2 Nama responden</span><br>
                 <span><i>Name of respondent</i></span><br>
-                <input type="text" name="001111" id="001111"><br>
+                <input type="text" Name="ac1_001111" id="001111"><br>
                 <span>3 No. Telefon: Bimbit/ Rumah/ Pejabat</span><br>
                 <span><i>Telephone No: H/P / Home / Office</i></span><br>
-                <input type="text" name="001113" id="001113"><br>
+                <input type="text" Name="ac1_001113" id="001113"><br>
                 <span>4 Tarikh lawatan</span><br>
                 <span><i>Date of visit</i></span><br>
-                <input type="date" name="001119" id="001119"><br>
+                <input type="date" Name="ac1_001119" id="001119"><br>
                 <span>5 Catatan</span><br>
                 <span><i>Comments</i></span><br>
-                <input type="text" name="catatan" id="catatan"><br>
+                <input type="text" Name="ac1_catatan" id="catatan"><br>
             </fieldset>
         </div>
         <div class="myDiv hidden">
@@ -226,9 +226,9 @@
                     </tr>
                     <tr>
                     <td><span>01</span><br></td>
-                    <td><input type="text" name="0100[]" id="0100"><br></td>
-                    <td><input type="text" name="0101[]" id="0101"><br></td>
-                    <td><input type="text" name="0102[]" id="0102"><br></td>
+                    <td><input type="text" Name="ac1_0100[]" id="0100"><br></td>
+                    <td><input type="text" Name="ac1_0101[]" id="0101"><br></td>
+                    <td><input type="text" Name="ac1_0102[]" id="0102"><br></td>
                     </tr>
                 </table>
                 <button id="addRowBtn">
@@ -283,14 +283,14 @@
                     </tr>
                     <tr>
                         <td><span>01</span><br></td>
-                        <td><input type="text" name="0103[]" id="0103"><br></td>
-                        <td><input type="text" name="0104[]" id="0104"><br></td>
-                        <td><input type="text" name="0105[]" id="0105"><br></td>
-                        <td><input type="text" name="0106[]" id="0106"><br></td>
-                        <td><input type="text" name="0107[]" id="0107"><br></td>
-                        <td><input type="text" name="0108[]" id="0108"><br></td>
-                        <td><input type="text" name="0109[]" id="0109"><br></td>
-                        <td><input type="text" name="0110[]" id="0110"><br></td>
+                        <td><input type="text" Name="ac1_0103[]" id="0103"><br></td>
+                        <td><input type="text" Name="ac1_0104[]" id="0104"><br></td>
+                        <td><input type="text" Name="ac1_0105[]" id="0105"><br></td>
+                        <td><input type="text" Name="ac1_0106[]" id="0106"><br></td>
+                        <td><input type="text" Name="ac1_0107[]" id="0107"><br></td>
+                        <td><input type="text" Name="ac1_0108[]" id="0108"><br></td>
+                        <td><input type="text" Name="ac1_0109[]" id="0109"><br></td>
+                        <td><input type="text" Name="ac1_0110[]" id="0110"><br></td>
                     </tr>
                 </table>
             </fieldset>
@@ -332,16 +332,16 @@
                 </tr>
                 <tr>
                     <td><span>01</span><br></td>
-                    <td><input type="number" name="0200[]" ></td>
-                    <td><input type="number" name="0201[]" ></td>
-                    <td><input type="number" name="0202[]" ></td>
-                    <td><input type="number" name="0203[]" ></td>
-                    <td><input type="number" name="0204[]" ></td>
-                    <td><input type="number" name="0205[]" ></td>
-                    <td><input type="number" name="0300[]" ></td>
-                    <td><input type="number" name="0301[]" ></td>
-                    <td><input type="number" name="0302[]" ></td>
-                    <td><input type="number" name="0303[]" ></td>
+                    <td><input type="number" Name="ac1_0200[]" ></td>
+                    <td><input type="number" Name="ac1_0201[]" ></td>
+                    <td><input type="number" Name="ac1_0202[]" ></td>
+                    <td><input type="number" Name="ac1_0203[]" ></td>
+                    <td><input type="number" Name="ac1_0204[]" ></td>
+                    <td><input type="number" Name="ac1_0205[]" ></td>
+                    <td><input type="number" Name="ac1_0300[]" ></td>
+                    <td><input type="number" Name="ac1_0301[]" ></td>
+                    <td><input type="number" Name="ac1_0302[]" ></td>
+                    <td><input type="number" Name="ac1_0303[]" ></td>
                 </tr>
             </table>
         </div>
@@ -377,14 +377,14 @@
                 </tr>
                 <tr>
                     <td><span>01</span><br></td>
-                    <td><input type="number" name="0400[]" ></td>
-                    <td><input type="number" name="0401[]" ></td>
-                    <td><input type="number" name="0402[]" ></td>
-                    <td><input type="number" name="0403[]" ></td>
-                    <td><input type="number" name="0404[]" ></td>
-                    <td><input type="number" name="0405[]" ></td>
-                    <td><input type="number" name="0406[]" ></td>
-                    <td><input type="text" name="0407[]" ></td>
+                    <td><input type="number" Name="ac1_0400[]" ></td>
+                    <td><input type="number" Name="ac1_0401[]" ></td>
+                    <td><input type="number" Name="ac1_0402[]" ></td>
+                    <td><input type="number" Name="ac1_0403[]" ></td>
+                    <td><input type="number" Name="ac1_0404[]" ></td>
+                    <td><input type="number" Name="ac1_0405[]" ></td>
+                    <td><input type="number" Name="ac1_0406[]" ></td>
+                    <td><input type="text" Name="ac1_0407[]" ></td>
                 </tr>
             </table>
         </div>
@@ -418,13 +418,13 @@
                 </tr>
                 <tr>
                 <td><span>01</span><br></td>
-                <td><input type="number" name="0500[]" ></td>
-                <td><input type="text" name="0501[]" ></td>
-                <td><input type="number" name="0600[]" ></td>
-                <td><input type="number" name="0601[]" ></td>
-                <td><input type="number" name="0602[]" ></td>
-                <td><input type="number" name="0603[]" ></td>
-                <td><input type="number" name="0604[]" ></td>
+                <td><input type="number" Name="ac1_0500[]" ></td>
+                <td><input type="text" Name="ac1_0501[]" ></td>
+                <td><input type="number" Name="ac1_0600[]" ></td>
+                <td><input type="number" Name="ac1_0601[]" ></td>
+                <td><input type="number" Name="ac1_0602[]" ></td>
+                <td><input type="number" Name="ac1_0603[]" ></td>
+                <td><input type="number" Name="ac1_0604[]" ></td>
                 </tr>
             </table>
         </div>
@@ -435,15 +435,15 @@
                 </th>
                 <tr>
                 <td style="text-align: left">
-                    1. Bekerja sendiri <input style="width: 10%;" type="number" name="0701" ><br>
+                    1. Bekerja sendiri <input style="width: 10%;" type="number" Name="ac1_0701" ><br>
                     <i>&nbsp; &nbsp;Self employment</i><br><br>
-                    2. Pekerjaan bergaji <input style="width: 10%;" type="number" name="0702" ><br>
+                    2. Pekerjaan bergaji <input style="width: 10%;" type="number" Name="ac1_0702" ><br>
                     <i>&nbsp; &nbsp;Paid employment</i><br><br>
-                    3. Pendapatan daripada harta dan pelaburan <input style="width: 10%;" type="number" name="0703" ><br>
+                    3. Pendapatan daripada harta dan pelaburan <input style="width: 10%;" type="number" Name="ac1_0703" ><br>
                     <i>&nbsp; &nbsp;Income from property and investment</i><br><br>
-                    4. Pindahan semasa diterima <input style="width: 10%;" type="number" name="0704" ><br>
+                    4. Pindahan semasa diterima <input style="width: 10%;" type="number" Name="ac1_0704" ><br>
                     <i>&nbsp; &nbsp; Current transfer received</i><br><br>
-                    5. Jumlah<input style="width: 10%;" type="number" name="0705" ><br>
+                    5. Jumlah<input style="width: 10%;" type="number" Name="ac1_0705" ><br>
                     <i>&nbsp; &nbsp;Total</i><br>
                 </td>
                 </tr>

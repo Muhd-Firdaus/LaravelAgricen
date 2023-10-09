@@ -11,7 +11,6 @@ class BorangController extends Controller
     public function insert_AC1(Request $request){
         try{
             $rules = [
-                'email'      => 'bail|required|max:100',
             ];
             $this->validate($request, $rules);
             

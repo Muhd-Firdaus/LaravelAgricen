@@ -14,14 +14,10 @@ use App\Http\Controllers\UserController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('content');
-});
-
 Route::get('/register', function () {   return view('register');    });
 Route::post('/register', [UserController::class, 'store']);
 Route::get('/login', [UserController::class,'index'])->name('login')->middleware('guest');
+Route::get('/', [UserController::class,'index'])->name('login')->middleware('guest');
 Route::post('login', [UserController::class,'authenticate']);
 Route::post('/logout', [UserController::class,'logout']);
 
