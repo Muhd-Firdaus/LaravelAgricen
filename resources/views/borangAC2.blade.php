@@ -226,12 +226,12 @@
                     </tr>
                     <tr>
                     <td><span>01</span><br></td>
-                    <td><input type="text" Name="ac1_0100[]" id="0100"><br></td>
-                    <td><input type="text" Name="ac1_0101[]" id="0101"><br></td>
-                    <td><input type="text" Name="ac1_0102[]" id="0102"><br></td>
+                    <td><input type="text" Name="ac1[0][0100]" id="0100"><br></td>
+                    <td><input type="text" Name="ac1[0][0101]" id="0101"><br></td>
+                    <td><input type="text" Name="ac1[0][0102]" id="0102"><br></td>
                     </tr>
                 </table>
-                <button id="addRowBtn">
+                <button id="addRowBtn" type="button">
                     <span>Tambah</span><br>
                     <span><i>Add</i></span><br>
                 </button>
@@ -283,14 +283,14 @@
                     </tr>
                     <tr>
                         <td><span>01</span><br></td>
-                        <td><input type="text" Name="ac1_0103[]" id="0103"><br></td>
-                        <td><input type="text" Name="ac1_0104[]" id="0104"><br></td>
-                        <td><input type="text" Name="ac1_0105[]" id="0105"><br></td>
-                        <td><input type="text" Name="ac1_0106[]" id="0106"><br></td>
-                        <td><input type="text" Name="ac1_0107[]" id="0107"><br></td>
-                        <td><input type="text" Name="ac1_0108[]" id="0108"><br></td>
-                        <td><input type="text" Name="ac1_0109[]" id="0109"><br></td>
-                        <td><input type="text" Name="ac1_0110[]" id="0110"><br></td>
+                        <td><input type="text" Name="ac1[0][0103]" id="0103"><br></td>
+                        <td><input type="text" Name="ac1[0][0104]" id="0104"><br></td>
+                        <td><input type="text" Name="ac1[0][0105]" id="0105"><br></td>
+                        <td><input type="text" Name="ac1[0][0106]" id="0106"><br></td>
+                        <td><input type="text" Name="ac1[0][0107]" id="0107"><br></td>
+                        <td><input type="text" Name="ac1[0][0108]" id="0108"><br></td>
+                        <td><input type="text" Name="ac1[0][0109]" id="0109"><br></td>
+                        <td><input type="text" Name="ac1[0][0110]" id="0110"><br></td>
                     </tr>
                 </table>
             </fieldset>
@@ -332,16 +332,16 @@
                 </tr>
                 <tr>
                     <td><span>01</span><br></td>
-                    <td><input type="number" Name="ac1_0200[]" ></td>
-                    <td><input type="number" Name="ac1_0201[]" ></td>
-                    <td><input type="number" Name="ac1_0202[]" ></td>
-                    <td><input type="number" Name="ac1_0203[]" ></td>
-                    <td><input type="number" Name="ac1_0204[]" ></td>
-                    <td><input type="number" Name="ac1_0205[]" ></td>
-                    <td><input type="number" Name="ac1_0300[]" ></td>
-                    <td><input type="number" Name="ac1_0301[]" ></td>
-                    <td><input type="number" Name="ac1_0302[]" ></td>
-                    <td><input type="number" Name="ac1_0303[]" ></td>
+                    <td><input type="number" Name="ac1[0][0200]"></td>
+                    <td><input type="number" Name="ac1[0][0201]"></td>
+                    <td><input type="number" Name="ac1[0][0202]"></td>
+                    <td><input type="number" Name="ac1[0][0203]"></td>
+                    <td><input type="number" Name="ac1[0][0204]"></td>
+                    <td><input type="number" Name="ac1[0][0205]"></td>
+                    <td><input type="number" Name="ac1[0][0300]"></td>
+                    <td><input type="number" Name="ac1[0][0301]"></td>
+                    <td><input type="number" Name="ac1[0][0302]"></td>
+                    <td><input type="number" Name="ac1[0][0303]"></td>
                 </tr>
             </table>
         </div>
@@ -377,14 +377,14 @@
                 </tr>
                 <tr>
                     <td><span>01</span><br></td>
-                    <td><input type="number" Name="ac1_0400[]" ></td>
-                    <td><input type="number" Name="ac1_0401[]" ></td>
-                    <td><input type="number" Name="ac1_0402[]" ></td>
-                    <td><input type="number" Name="ac1_0403[]" ></td>
-                    <td><input type="number" Name="ac1_0404[]" ></td>
-                    <td><input type="number" Name="ac1_0405[]" ></td>
-                    <td><input type="number" Name="ac1_0406[]" ></td>
-                    <td><input type="text" Name="ac1_0407[]" ></td>
+                    <td><input type="number" Name="ac1[0][0400]" ></td>
+                    <td><input type="number" Name="ac1[0][0401]" ></td>
+                    <td><input type="number" Name="ac1[0][0402]" ></td>
+                    <td><input type="number" Name="ac1[0][0403]" ></td>
+                    <td><input type="number" Name="ac1[0][0404]" ></td>
+                    <td><input type="number" Name="ac1[0][0405]" ></td>
+                    <td><input type="number" Name="ac1[0][0406]" ></td>
+                    <td><input type="text" Name="ac1[0][0407]" ></td>
                 </tr>
             </table>
         </div>
@@ -418,13 +418,13 @@
                 </tr>
                 <tr>
                 <td><span>01</span><br></td>
-                <td><input type="number" Name="ac1_0500[]" ></td>
-                <td><input type="text" Name="ac1_0501[]" ></td>
-                <td><input type="number" Name="ac1_0600[]" ></td>
-                <td><input type="number" Name="ac1_0601[]" ></td>
-                <td><input type="number" Name="ac1_0602[]" ></td>
-                <td><input type="number" Name="ac1_0603[]" ></td>
-                <td><input type="number" Name="ac1_0604[]" ></td>
+                <td><input type="number" Name="ac1[0][0500]" ></td>
+                <td><input type="text" Name="ac1[0][0501]" ></td>
+                <td><input type="number" Name="ac1[0][0600]" ></td>
+                <td><input type="number" Name="ac1[0][0601]" ></td>
+                <td><input type="number" Name="ac1[0][0602]" ></td>
+                <td><input type="number" Name="ac1[0][0603]" ></td>
+                <td><input type="number" Name="ac1[0][0604]" ></td>
                 </tr>
             </table>
         </div>
@@ -448,7 +448,7 @@
                 </td>
                 </tr>
             </table>
-        </div>
+        </div> 
         <button type="submit"><span>Hantar</span><br>
         <span><i>Submit</i></span></button>
     </form>

@@ -10,9 +10,9 @@ document.getElementById("addRowBtn").addEventListener("click", function() {
     
     var rowNumber = table.rows.length - 1; // Adjust for header row
     cell1.innerHTML = "<span>" + (rowNumber < 10 ? "0" : "") + rowNumber + "</span><br>";
-    cell2.innerHTML = '<input type="text" name="0100[]" id="0100' + rowNumber + '"><br>';
-    cell3.innerHTML = '<input type="text" name="0101[]" id="0101' + rowNumber + '"><br>';
-    cell4.innerHTML = '<input type="text" name="0102[]" id="0102' + rowNumber + '"><br>';
+    cell2.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0100]" id="0100' +  rowNumber + '"><br>';
+    cell3.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0101]" id="0101' + rowNumber + '"><br>';
+    cell4.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0102]" id="0102' + rowNumber + '"><br>';
     cell5.innerHTML = '<button class="deleteBtn"><span>Buang</span><br><span><i>Delete</i></span><br></button>';
 
     // setupDeleteButtons(); // Reinitialize delete buttons
@@ -33,14 +33,14 @@ document.getElementById("addRowBtn").addEventListener("click", function() {
     
     var rowNumber = table.rows.length - 1; // Adjust for header row
     cell1.innerHTML = "<span>" + (rowNumber < 10 ? "0" : "") + rowNumber + "</span><br>";
-    cell2.innerHTML = '<input type="text" name="0103[]" id="0101' + rowNumber + '"><br>';
-    cell3.innerHTML = '<input type="text" name="0104[]" id="0100' + rowNumber + '"><br>';
-    cell4.innerHTML = '<input type="text" name="0105[]" id="0101' + rowNumber + '"><br>';
-    cell5.innerHTML = '<input type="text" name="0106[]" id="0102' + rowNumber + '"><br>';
-    cell6.innerHTML = '<input type="text" name="0107[]" id="0100' + rowNumber + '"><br>';
-    cell7.innerHTML = '<input type="text" name="0108[]" id="0101' + rowNumber + '"><br>';
-    cell8.innerHTML = '<input type="text" name="0109[]" id="0102' + rowNumber + '"><br>';
-    cell9.innerHTML = '<input type="text" name="0110[]" id="0100' + rowNumber + '"><br>';
+    cell2.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0103]" id="0103' + rowNumber + '"><br>';
+    cell3.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0104]" id="0104' + rowNumber + '"><br>';
+    cell4.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0105]" id="0105' + rowNumber + '"><br>';
+    cell5.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0106]" id="0106' + rowNumber + '"><br>';
+    cell6.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0107]" id="0107' + rowNumber + '"><br>';
+    cell7.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0108]" id="0108' + rowNumber + '"><br>';
+    cell8.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0109]" id="0109' + rowNumber + '"><br>';
+    cell9.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0110]" id="0110' + rowNumber + '"><br>';
     cell10.innerHTML = '<button class="deleteBtn2"><span>Buang</span><br><span><i>Delete</i></span><br></button>';
     
     var table = document.getElementById("tableA2A3");
@@ -61,16 +61,16 @@ document.getElementById("addRowBtn").addEventListener("click", function() {
     
     var rownumber = table.rows.length - 4; // Adjust for header row
     cell1.innerHTML = "<span>" + (rownumber < 10 ? "0" : "") + rownumber + "</span><br>";
-    cell2.innerHTML = '<input type="number" name="0200[]" required><br>';
-    cell3.innerHTML = '<input type="number" name="0201[]" required><br>';
-    cell4.innerHTML = '<input type="number" name="0202[]" required><br>';
-    cell5.innerHTML = '<input type="number" name="0203[]" required><br>';
-    cell6.innerHTML = '<input type="number" name="0204[]" required><br>';
-    cell7.innerHTML = '<input type="number" name="0205[]" required><br>';
-    cell8.innerHTML = '<input type="number" name="0300[]" required><br>';
-    cell9.innerHTML = '<input type="number" name="0301[]" required><br>';
-    cell10.innerHTML = '<input type="number" name="0302[]" required><br>';
-    cell11.innerHTML = '<input type="number" name="0303[]" required><br>';
+    cell2.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0200]" ><br>';
+    cell3.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0201]" ><br>';
+    cell4.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0202]" ><br>';
+    cell5.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0203]" ><br>';
+    cell6.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0204]" ><br>';
+    cell7.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0205]" ><br>';
+    cell8.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0300]" ><br>';
+    cell9.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0301]" ><br>';
+    cell10.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0302]" ><br>';
+    cell11.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0303]" ><br>';
     cell12.innerHTML = '<button id="deleteBtnA2A3" class="deleteBtnA2A3">Delete</button>';
 
     var table = document.getElementById("tableA4");
@@ -89,14 +89,14 @@ document.getElementById("addRowBtn").addEventListener("click", function() {
     
     var rownumber = table.rows.length - 4; // Adjust for header row
     cell1.innerHTML = "<span>" + (rownumber < 10 ? "0" : "") + rownumber + "</span><br>";
-    cell2.innerHTML = '<input type="number" name="0400[]" required><br>';
-    cell3.innerHTML = '<input type="number" name="0401[]" required><br>';
-    cell4.innerHTML = '<input type="number" name="0402[]" required><br>';
-    cell5.innerHTML = '<input type="number" name="0403[]" required><br>';
-    cell6.innerHTML = '<input type="number" name="0404[]" required><br>';
-    cell7.innerHTML = '<input type="number" name="0405[]" required><br>';
-    cell8.innerHTML = '<input type="number" name="0406[]" required><br>';
-    cell9.innerHTML = '<input type="text" name="0407[]" required><br>';
+    cell2.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0400]" ><br>';
+    cell3.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0401]" ><br>';
+    cell4.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0402]" ><br>';
+    cell5.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0403]" ><br>';
+    cell6.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0404]" ><br>';
+    cell7.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0405]" ><br>';
+    cell8.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0406]" ><br>';
+    cell9.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0407]" ><br>';
     cell10.innerHTML = '<button class="deleteBtnA4">Delete</button>';
 
     var table = document.getElementById("tableA5A6");
@@ -114,13 +114,13 @@ document.getElementById("addRowBtn").addEventListener("click", function() {
     
     var rownumber = table.rows.length - 4; // Adjust for header row
     cell1.innerHTML = "<span>" + (rownumber < 10 ? "0" : "") + rownumber + "</span><br>";
-    cell2.innerHTML = '<input type="number" name="0500[]" required><br>';
-    cell3.innerHTML = '<input type="text" name="0501[]" required><br>';
-    cell4.innerHTML = '<input type="number" name="0600[]" required><br>';
-    cell5.innerHTML = '<input type="number" name="0601[]" required><br>';
-    cell6.innerHTML = '<input type="number" name="0602[]" required><br>';
-    cell7.innerHTML = '<input type="number" name="0603[]" required><br>';
-    cell8.innerHTML = '<input type="number" name="0604[]" required><br>';
+    cell2.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0500]" ><br>';
+    cell3.innerHTML = '<input type="text" name="ac1['+ (rowNumber - 1) +'][0501]" ><br>';
+    cell4.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0600]" ><br>';
+    cell5.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0601]" ><br>';
+    cell6.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0602]" ><br>';
+    cell7.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0603]" ><br>';
+    cell8.innerHTML = '<input type="number" name="ac1['+ (rowNumber - 1) +'][0604]" ><br>';
     cell9.innerHTML = '<button class="deleteBtnA5A6">Delete</button>';
 
     setupDeleteButtons(); // Reinitialize delete buttons
